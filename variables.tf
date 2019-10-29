@@ -1,27 +1,27 @@
 variable "name" {
-  type        = "string"
+  type        = string
   description = "The name of the user group"
 }
 
 variable "user_pool_id" {
-  type        = "string"
+  type        = string
   description = "The user pool ID"
 }
 
 variable "description" {
-  type        = "string"
+  type        = string
   description = "The description of the user group"
   default     = ""
 }
 
 variable "precedence" {
-  type        = "string"
+  type        = string
   description = "The precedence of the user group"
   default     = ""
 }
 
 variable "role_arn" {
-  type        = "string"
+  type        = string
   description = "The ARN of the IAM role to be associated with the user group"
   default     = ""
 }
